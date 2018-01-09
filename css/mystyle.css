@@ -1,0 +1,78 @@
+.top_bar
+{
+	background-color: #0080FF;
+	padding: 5px 0px;
+}
+.social_icon
+{
+	margin-right: 5px;
+}
+.contact_info
+{
+	color: white;
+	font-size:16px;
+}
+.my_menu
+{
+	margin-top: 15px;
+}
+.my_menu .navbar-default{
+	background: none;
+	border: none;
+}
+.my_menu .navbar-nav .active a,.my_menu .navbar-nav .active a:hover
+{
+	background-color: #0080FF;
+	color: #ffffff;
+}
+.my_menu .navbar-nav li a:hover
+{
+	background-color:#0080FF; 
+	color: #ffffff;
+}
+
+@media (max-width: 1200px){
+	.my_menu .pull-right{float:none !important;}
+}
+.languages
+{
+	margin-top: 80px;
+    margin-left: 15px;
+}
+
+.our_courses
+{
+	background:radial-gradient(circle, orange, skyblue);
+	padding: 25px;
+}
+.our_courses h1
+{
+	color: #ffffff;
+}
+@media (max-width: 603px)
+{
+	.our_courses ( class*="col-")
+	{
+		margin-bottom: 100px;
+	}
+}
+.footer
+{
+	background-color: #333333;
+	padding: 20px 0;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+.footer ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.footer ul li a
+{
+	color: #ffffff;
+	font-size: 15px;
+}
+
